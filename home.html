@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+</style>
+<body>
+   
+    <div style="padding-left: 22px;">
+        <label for="">Name:</label><br />
+        <input type="text" name="name" id="name"><br /><br />
+        <label for="">Email:</label><br />
+        <input type="emal" name="email" id="email"><br /><br />
+        <label for="">ADdress:</label><br />
+        <input type="text" name="address" id="address"><br /><br />
+        <label for="">College Name:</label><br />
+        <input type="text" name="clg_name" id="clg_name"><br /><br />
+        <label for="">Branch Name:</label><br />
+        <input type="text" name="branch_name" id="branch_name"><br /><br />
+        <button type="submit" onclick="fun()" style="margin-left:150px">Add Row</button>
+    
+    <br/><br/><br/><br/><br/></br/>
+    
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>College Name</th>
+            <th>Branch Name</th>
+        </tr>
+        <tr>
+            <td>Radhe</td>
+            <td>r@gmail.com</td>
+            <td>jaiput</td>
+            <td>ACEIT</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Deeepa</td>
+            <td>d@gmail.com</td>
+            <td>kota</td>
+            <td>aceit</td>
+            <td>cse</td>
+        </tr>
+        <tr>
+            <td>krish</td>
+            <td>E@gmail.com</td>
+            <td>jhodhpur</td>
+            <td>skit</td>
+            <td>it</td>
+        </tr>
+        <tr>
+            <td>deep</td>
+            <td>deep0011@gmail.com</td>
+            <td>gujrat</td>
+            <td>gecit</td>
+            <td>mce</td>
+        </tr>
+    </table>
+    <script>
+        var arr = ["hi"];
+        console.log("==========",arr);
+        function fun(){
+            alert("hi");
+            arr.push(document.getElementById("name"));
+            alert("hi");
+        }
+    </script>
+</body>
+
+</html>
